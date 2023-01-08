@@ -33,3 +33,4 @@ ___ Split_Chest_X-ray.ipynb	// 分割细菌性和病毒性
 | Chest_X-ray3   | AlexNet | 5      | 76.0590% | 0.6        |
 | Chest_X-ray3   | AlexNet | 10     | 78.5317% | 0.5        |
 | Chest_X-ray2-2 | AlexNet | 5      | 65.7548% | 0.6        |
+
