@@ -1,3 +1,12 @@
+<div align='center' ><font size='6'>Robust Image Classification with Grayscale Sequence: A VGG-ML Fusion Model for X-Ray Pneumonia Images (ICSIP 2023, EI Index)</font></div>
+<div align='center' ><font size='4'><a https://xuejifang.github.io>Xueji Fang</a>, Shanghai University</font></div>
+
+> This is the official codebase for the paper "Robust Image Classification with Grayscale Sequence: A VGG-ML Fusion Model for X-Ray Pneumonia Images" (ICSIP 2023, EI Index) but not the whole as this VGG-ML fusion model is easy to implentation and the author is lazy to organize the codes >_<.
+
+# Poster
+![poster](./poster/poster.png)
+
+# Implementation
 ## 1. 环境
 
 PyTorch 1.8
@@ -23,7 +32,7 @@ ___ Split_Chest_X-ray.ipynb	// 分割细菌性和病毒性
 
 
 
-## 2. 实验结果
+## 2. （前期）实验结果（部分）
 
 经典卷积神经网络效果对比
 
@@ -34,3 +43,16 @@ ___ Split_Chest_X-ray.ipynb	// 分割细菌性和病毒性
 | Chest_X-ray3   | AlexNet | 10     | 78.5317% | 0.5        |
 | Chest_X-ray2-2 | AlexNet | 5      | 65.7548% | 0.6        |
 
+
+# Citation
+```latex
+@INPROCEEDINGS{10270988,
+  author={Fang, Xueji},
+  booktitle={2023 8th International Conference on Signal and Image Processing (ICSIP)}, 
+  title={Robust Image Classification with Grayscale Sequence: A VGG-ML Fusion Model for X-Ray Pneumonia Images}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={350-354},
+  doi={10.1109/ICSIP57908.2023.10270988}}
+```
